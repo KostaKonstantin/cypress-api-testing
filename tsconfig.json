@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist", // This is optional, specify your desired output directory
+    "strict": true,
+    "types": ["cypress", "chai", "node"]
+  },
+  "include": [
+    "cypress/**/*.ts" // This assumes your TypeScript test files are in the 'cypress' directory
+  ]
+}
